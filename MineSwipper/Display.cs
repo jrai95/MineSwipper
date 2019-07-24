@@ -116,7 +116,6 @@ namespace MineSwipper
             if (x < 0 || x > 10 || y < 0 || y > 10)
                 return false;
 
-        
             return true;
         }
 
@@ -140,6 +139,5 @@ namespace MineSwipper
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine(""); // Resets the caret
         }
-
     }
 }
